@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_app/first_screen.dart';
 import 'package:provider_app/provider/counter_provider.dart';
 import 'package:provider_app/provider/shopping_card_provider.dart';
-import 'package:provider_app/second_page.dart';
+import 'package:provider_app/screen/first_screen.dart';
+import 'package:provider_app/screen/second_page.dart';
 
 void main() {
   runApp(MultiProvider(providers: [

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider_app/provider/shopping_card_provider.dart';
 
-import 'provider/counter_provider.dart';
+import '../provider/counter_provider.dart';
 
 class SecondScreen extends StatelessWidget {
   const SecondScreen({Key? key}) : super(key: key);
