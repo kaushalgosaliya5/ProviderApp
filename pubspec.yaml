@@ -48,7 +48,8 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
   fancy_animated_button: 0.0.2
-# For information on the generic Dart part of this file, see the
+  google_fonts: ^4.0.4
+  # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.

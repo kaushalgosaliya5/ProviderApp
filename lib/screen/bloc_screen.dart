@@ -1,17 +1,31 @@
-import 'package:fancy_animated_button/fancy_animated_button.dart';
 import 'package:flutter/material.dart';
 
-class FancyAnimatedButtonScreen extends StatelessWidget {
-  const FancyAnimatedButtonScreen({Key? key}) : super(key: key);
+class BLoCScreen extends StatefulWidget {
+  const BLoCScreen({Key? key}) : super(key: key);
 
+  @override
+  State<BLoCScreen> createState() => _BLoCScreenState();
+}
+
+class _BLoCScreenState extends State<BLoCScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Fancy Animated Button Screen'),
-        backgroundColor: Colors.cyan,
+        title: const Text(
+          "BLoC Api Call",
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.purple,
       ),
-      body: FancyAnimatedButton(onClick: () {}),
+      body: Center(
+        child: MaterialButton(
+          color: Colors.purple,
+          textColor: Colors.white,
+          onPressed: () {},
+          child: const Text('BLoC Api Call'),
+        ),
+      ),
     );
   }
 }
