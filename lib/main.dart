@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider_app/provider/counter_provider.dart';
 import 'package:provider_app/provider/shopping_card_provider.dart';
-import 'package:provider_app/screen/first_screen.dart';
+import 'package:provider_app/screen/future_builder_screen.dart';
 import 'package:provider_app/screen/second_page.dart';
 
 void main() {
@@ -22,12 +22,18 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       initialRoute: "/",
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        useMaterial3: true,
+        primarySwatch: Colors.green,
       ),
       routes: {
-        '/': (context) => const FirstScreen(),
+        //'/': (context) => const FirstScreen(),
+        //'/': (context) => const ButtonScreen(),
+        //'/': (context) => const RowColumnScreen(),
+        //'/': (context) => const ImageScreen(),
+        //'/': (context) => const FancyAnimatedButtonScreen(),
+        '/': (context) => const FutureBuilderScreen(),
         "/secondScreen": (context) => const SecondScreen(),
       },
     );
   }
-}
+} /**/
